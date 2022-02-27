@@ -21,7 +21,7 @@ library(druid)
 
 library(ambiorix)
 
-app <- Ambiorix$new()
+app <- Ambiorix$new(log = FALSE)
 
 app$use(
   druid(
